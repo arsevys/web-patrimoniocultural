@@ -1,0 +1,355 @@
+/* Desktop */
+.main {
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+}
+
+/* Rectangle */
+.main {
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: url("./cementerioorigenes2.jpg");
+
+
+/* Rectangle */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: rgba(0, 0, 0, 0.5);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 360px;
+height: 454px;
+left: 74px;
+top: 285px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+
+/* Group 8.1 */
+
+position: absolute;
+width: 309px;
+height: 37px;
+left: 99px;
+top: 647px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 309px;
+height: 37px;
+left: 99px;
+top: 647px;
+
+/* background */
+background: #FFFFFF;
+border: 1px solid #4F4F4F;
+box-sizing: border-box;
+border-radius: 27.5px;
+
+
+/* INICIO DE SESIÓN */
+
+position: absolute;
+width: 155px;
+height: 18px;
+left: 176px;
+top: 656px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.1em;
+
+/* Gray 2 */
+background: #4F4F4F;
+
+
+/* Iniciar sesión */
+
+position: absolute;
+width: 232px;
+height: 29px;
+left: 138px;
+top: 340px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 33px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #4F4F4F;
+
+
+
+/* Group 10 */
+
+position: absolute;
+width: 309px;
+height: 67px;
+left: 99px;
+top: 416px;
+
+
+
+/* CORREO ELECTRÓNICO O CODIGO */
+
+position: absolute;
+width: 279px;
+height: 18px;
+left: 100px;
+top: 416px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.1em;
+
+color: #4F4F4F;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 309px;
+height: 42px;
+left: 99px;
+top: 441px;
+
+/* Gray 2 */
+background: #4F4F4F;
+opacity: 0.5;
+border-radius: 9px;
+
+
+/* ingresa tu correo aquí */
+
+position: absolute;
+width: 185px;
+height: 15px;
+left: 114px;
+top: 454px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Group 9 */
+
+position: absolute;
+width: 309px;
+height: 67px;
+left: 99px;
+top: 511px;
+
+
+
+/* CONTRASEÑA */
+
+position: absolute;
+width: 155px;
+height: 18px;
+left: 99px;
+top: 511px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.1em;
+
+/* Gray 2 */
+background: #4F4F4F;
+
+
+/* Rectangle 2.1 */
+
+position: absolute;
+width: 309px;
+height: 42px;
+left: 99px;
+top: 536px;
+
+/* Gray 2 */
+background: #4F4F4F;
+opacity: 0.5;
+border-radius: 9px;
+
+
+/* ingresa tu contraseña */
+
+position: absolute;
+width: 185px;
+height: 15px;
+left: 114px;
+top: 549px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* hide */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 379px;
+top: 546px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 9.04%;
+bottom: 9.04%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 9.04%;
+bottom: 9.04%;
+
+/* background */
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 27.99%;
+right: 38.37%;
+top: 28.46%;
+bottom: 37.9%;
+
+/* background */
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.94%;
+right: 28.09%;
+top: 38.41%;
+bottom: 27.62%;
+
+/* background */
+background: #FFFFFF;
+
+
+/* Group 11 */
+
+position: absolute;
+width: 584px;
+height: 92px;
+left: 466px;
+top: 466px;
+
+
+
+/* Nuestra cultura sigue viva */
+
+position: absolute;
+width: 584px;
+height: 44px;
+left: 466px;
+top: 466px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Gracias a ti */
+
+position: absolute;
+width: 248px;
+height: 44px;
+left: 466px;
+top: 514px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+

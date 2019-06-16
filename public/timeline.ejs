@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Menu
+            </title>
+            <link href="timeline.css" rel="stylesheet" type="text/css">
+            </link>
+        </meta>
+      <script type="text/javascript">  var ides="<%= data.id%>"</script>
+         <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="timeline.js"></script>
+    </head>
+    <body>
+        <div class="columna1">
+            <div>
+                <img src="http://i0.wp.com/buscatucarga.com/wp-content/themes/buscatucarga/img/avatar-blanco.png" style="width: 60px;height:60px;border:50px;"/>
+            </div>
+            <h1>
+                Aaron Young
+            </h1>
+            <hr>
+                <ul class="ulmenu">
+                    <li>
+                        <div>
+                            <img height="15" src="p.png" width="15">
+                                <span>
+                                    Dashboard
+                                </span>
+                            </img>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img height="15" src="img/vision.png" width="15">
+                                <span>
+                                    Visualización
+                                </span>
+                            </img>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img height="15" src="img/difussion.png" width="15">
+                                <span>
+                                    Difusión
+                                </span>
+                            </img>
+                        </div>
+                    </li>
+                </ul>
+                <br>
+                    <br>
+                        <hr>
+                            <span class="setting">
+                                Settings
+                            </span>
+                            <br>
+                                <ul class="ulmenu">
+                                    <li>
+                                        <div>
+                                            <img height="15" src="img/ele.png" width="15">
+                                                <span>
+                                                    Main Settings
+                                                </span>
+                                            </img>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </br>
+                        </hr>
+                    </br>
+                </br>
+            </hr>
+        </div>
+        <div class="container">
+          
+                <!-- Aqui desarrolla  -->
+                <div class="banner">
+                    <img src="<%= data.banner %>" alt="">
+                </div>
+
+
+                <div class="cuerpo">
+                    <div class="info"  data-id="<%= data.id %>">
+                        <div class="parte-A">
+                            <p style="margin-top: 5px;font-size: 23px;margin-bottom: 5px; font-family: Roboto;
+font-style: normal;letter-spacing: 0.15px;"><strong><%= data.titulo %></strong></p>
+                            <span style="font-size: 20px;">Reseña</span>
+                            <p class="m" style="font-family: Roboto;
+font-style: normal;"><%= data.descri %></p>
+                        </div>
+                        <div class="parte-B">
+                            <center>
+                                <img src="<%= data.foto%>" alt="">
+                            </center>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="timeline">
+                        <p style="font-size: 20px;"><strong>Vista de TimeLine</strong></p>
+                        <div class="line">
+                            
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+          
+        </div>
+    </body>
+</html>

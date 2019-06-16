@@ -1,0 +1,168 @@
+
+
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+.columna1 {
+	padding: 5px;
+	float:left;
+	width: 15%;
+	height: 850px;
+		webkit-box-shadow: 15px 3px 0px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 3px 0px -1px rgba(0,0,0,0.75);
+box-shadow: 15px 3px 0px -1px rgba(0,0,0,0.75)
+	/*background: green;*/
+	/*box-sizing: border-box;*/
+
+}
+
+
+.container {
+	float:left;
+	margin-left: 2%;
+	width: 76.5%;
+    height: 850px;
+    /*background: red;*/
+}
+
+.ulmenu {
+	list-style: none;
+padding: 3%;
+}
+
+.ulmenu li {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 21px;
+
+/* or 150% */
+
+letter-spacing: 0.1px;	
+border-radius:10px;
+	padding: 10px;
+}
+
+.ulmenu li:hover {
+	background: rgba(125,219,25,0.1);
+}
+
+.setting {
+	/* Body 2 - reg 14 (21px, 0.25px) */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+letter-spacing: 0.25px;
+
+/* Black / Disabled */
+
+color: #9E9E9E;
+}
+
+.banner {
+	width: 100%;
+    height: 30%;
+    /*background: yellow;*/
+}
+
+
+.banner img{
+	width: 100%;
+    height: 100%;
+}
+
+.cuerpo {
+	width: 100%;
+	height: 68%;
+	/*background: purple;*/
+}
+
+.info {
+	width: 100%;
+	height: 30%;
+	margin-top: 10px;
+	/*background: grey;*/
+}
+
+.parte-A {
+	width: 70%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+	padding-left: 10px;
+}
+
+.parte-B {
+	width: 28%;
+	height: 100%;
+	/*background: blue;*/
+	float:left;
+}
+
+.parte-B img{
+	width: 70%;
+	height: 70%;
+	padding-top:5px;
+	border-radius: 15px;
+}
+
+
+.timeline {
+	width: 100%;
+	height: 68%;
+	/*background: orange;*/
+}
+
+.line {
+	width: 90%;
+	height: 90%;
+	/*background: red;*/
+}
+
+.c1 {
+	width: 30%;
+	height: 20%;
+	/*background: green;*/
+	float: left;
+}
+
+.c2 {
+	width: 50%;
+	height: 19%;
+	/*background: blue;*/
+	background: #C4C4C4;
+	border-radius: 25px;
+	margin-bottom: 1px;
+	float: left;
+}
+
+.c3 {
+	width: 20%;
+	/*background: yellow;*/
+	float: left;
+}
+
+
+.c3 img {
+	border-radius: 10px;
+	width: 40%;
+	height: 67px;
+}
+
+
+
+
+
+
+
+

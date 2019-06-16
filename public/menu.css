@@ -1,0 +1,259 @@
+
+
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+.columna1 {
+	padding: 5px;
+	float:left;
+	width: 15%;
+	height: 850px;
+	webkit-box-shadow: 15px 3px 0px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 3px 0px -1px rgba(0,0,0,0.75);
+box-shadow: 15px 3px 0px -1px rgba(0,0,0,0.75)
+	/*background: green;*/
+	/*box-sizing: border-box;*/
+
+}
+
+
+.container {
+	float:left;
+	margin-left: 2%;
+    width: 76.5%;
+    height: 850px;
+    /*background: red;*/
+}
+
+.ulmenu {
+	list-style: none;
+padding: 3%;
+}
+
+.ulmenu li {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 21px;
+
+/* or 150% */
+
+letter-spacing: 0.1px;	
+border-radius:10px;
+	padding: 10px;
+}
+
+.ulmenu li:hover {
+	background: rgba(125,219,25,0.1);
+}
+
+.setting {
+	/* Body 2 - reg 14 (21px, 0.25px) */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+letter-spacing: 0.25px;
+
+/* Black / Disabled */
+
+color: #9E9E9E;
+}
+
+.allsquare {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 18%;
+}
+
+.letra {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+text-align: center;
+
+/* White / High Emphasis */
+margin:10px;
+
+color: #FFFFFF;
+}
+.letra-white {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+text-align: center;
+
+/* White / High Emphasis */
+margin:10px;
+
+color:rgba(0, 0, 0, 0.24);;
+}
+.square-white {
+	/* White / High Emphasis */
+	padding: 3%;
+ width: 110px;
+    height: 123px;
+  margin-left: 2%;
+
+background: #FFFFFF;
+border-radius: 4px;
+border:1px solid #F28083;
+color:rgba(0, 0, 0, 0.24);
+
+}
+.letra1{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+
+line-height: 15px;
+/* or 125% */
+
+
+text-align: center;
+letter-spacing: 0.4px;
+
+/* White / Medium Emphasis */
+
+color: rgba(255, 255, 255, 0.7);
+}
+.letra1-white{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+
+line-height: 15px;
+/* or 125% */
+
+
+text-align: center;
+letter-spacing: 0.4px;
+
+/* White / Medium Emphasis */
+
+color:rgba(0, 0, 0, 0.24);;
+}
+
+.square {
+	padding: 3%;
+ width: 110px;
+    height: 123px;
+  margin-left: 2%;
+
+/* coral gradient */
+
+background: linear-gradient(145.13deg, #E899B5 -31.42%, #F57976 78.15%);
+/* 6 dp */
+
+box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+
+
+.square1 {
+	padding: 3%;
+  width: 15%;
+  height: 20px;
+  margin: 3%;
+
+/* coral gradient */
+
+background: linear-gradient(145.13deg, #E899B5 -31.42%, #F57976 78.15%);
+/* 6 dp */
+
+box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+.square1-white{
+	padding: 3%;
+  width: 15%;
+  height: 20px;
+  margin: 3%;
+
+/* coral gradient */
+background: #FFFFFF;
+border-radius: 4px;
+border:1px solid #F28083;
+background: white;
+/* 6 dp */
+
+box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+
+.combo {
+	display: flex;
+	justify-content: flex-start;
+
+	align-items: center;
+}
+
+.container-avisos {
+	width: 100%;
+	height: 50%;
+	/*background: orange;*/
+
+}
+
+.avisos {
+	float: left;margin:1%;
+   border-radius: 10px;
+	/*background: yellow;*/
+	width: 29%;
+    height: 37%;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.avisos-A {
+	width: 70%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+}
+
+.avisos-b {
+	width: 28%;
+	height: 100%;
+	/*background: blue;*/
+	float:left;
+}
+
+.m{
+	margin:0;
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+/* or 150% */
+
+letter-spacing: 0.25px;
+
+/* Black / Medium Emphasis */
+
+color: rgba(0, 0, 0, 0.6);
+mix-blend-mode: normal;
+}
+
+.check-a  div{
+	float: left;
+}

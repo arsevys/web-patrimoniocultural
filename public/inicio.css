@@ -1,0 +1,137 @@
+body{
+	  background: url("./slide.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.banner {
+	position: absolute;
+width: 360px;
+height: 404px;
+left: 74px;
+top: 175px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.iniciar {
+	position: absolute;
+width: 80%;
+height: 29px;
+left: 48px;
+top: 40px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 33px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #4F4F4F;
+
+}
+
+.input {
+  position: relative;
+  /*font-size: 1.5em;*/
+  background: linear-gradient(21deg, #10abff, #1beabd);
+  padding: 3px;
+  display: inline-block;
+  border-radius: 9999em;
+}
+.input *:not(span) {
+	    height: 32px;
+  position: relative;
+  display: inherit;
+  border-radius: inherit;
+  margin: 0;
+  border: none;
+  outline: none;
+  padding: 0 0.325em;
+  z-index: 1;
+}
+span {
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+
+letter-spacing: 0.1em;
+
+}
+.input *:not(span):focus + span {
+  opacity: 1;
+  transform: scale(1);
+}
+.input span {
+  transform: scale(0.993, 0.94);
+  transition: transform 0.5s, opacity 0.25s;
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+  margin: 4px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #1beabd, -3px 3px 30px #10abff;
+}
+
+input {
+  font-family: inherit;
+  line-height: inherit;
+  color: #2e3750;
+  min-width: 12em;
+}
+
+.iniciarsession {
+
+width: 309px;
+height: 37px;
+left: 99px;
+top: 647px;
+
+/* background */
+
+background: #FFFFFF;
+border: 1px solid #4F4F4F;
+box-sizing: border-box;
+border-radius: 27.5px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+.butt {
+	
+width: 155px;
+height: 18px;
+left: 176px;
+top: 656px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+justify-content: center;
+letter-spacing: 0.1em;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
