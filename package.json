@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "applicationinsights": "^1.4.0",
-    "aws-sdk": "^2.476.0",
+    "aws-sdk": "^2.814.0",
     "azure-iothub": "^1.9.9",
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
